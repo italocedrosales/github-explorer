@@ -17,11 +17,11 @@
 > Github Explorer is amazing github repositories - made with Reactjs and Typescript.
 
 <h1 align="center">
-    <img alt="Github Explorer" title="#home" src="assets/home.png" width="250px" />
+    <img alt="Github Explorer" title="#home" src="assets/home.png" width="500px" />
 </h1>
 
 <h1 align="center">
-    <img alt="Github Explorer" title="#details" src="./assets/details.png" width="250px" />
+    <img alt="Github Explorer" title="#details" src="./assets/details.png" width="500px" />
 </h1>
 
 ## Technologies
