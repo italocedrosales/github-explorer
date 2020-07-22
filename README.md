@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center">
-  <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#installation">Installation
 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -12,7 +12,7 @@
   <a href="#license">License</a>
 </p>
 
-## Project
+## :rocket: Project
 
 > Github Explorer is amazing github repositories - made with Reactjs and Typescript.
 
@@ -50,7 +50,8 @@ This project was developed with the following technologies:
 
 ## Layout
 
-Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/HOCmxfrElzLpI75LdzFLia/Github-Explorer?node-id=0%3A1).
+Para acessar o layout utilize a ferramenta
+<a href="https://www.figma.com/file/HOCmxfrElzLpI75LdzFLia/Github-Explorer?node-id=0%3A1" target="_blank">Figma</a>.
 
 ## How to contribute
 
@@ -63,6 +64,6 @@ After merging your receipt request to done, you can delete a branch from yours.
 
 ## License
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
+This project is under the MIT license. See the [LICENSE](LICENSE) for details.
 
 Made with ♥ by Italo Cedro
