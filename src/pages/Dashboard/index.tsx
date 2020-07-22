@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FiChevronRight } from 'react-icons/fi';
+
+import api from '../../services/api';
 
 import logoImg from '../../assets/logo.svg';
 
 import { Title, Form, Repositories } from './styles';
 
 const Dashboard: React.FC = () => {
+  const [repositories, setRepositories] = useState([]);
+
   return (
     <>
       <img src={logoImg} alt="Github Explorer" />
