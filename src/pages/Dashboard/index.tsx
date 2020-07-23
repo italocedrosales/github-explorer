@@ -31,19 +31,25 @@ const Dashboard: React.FC = () => {
     return [];
   });
 
-  // async function findRepoDefault() {
-  //   const response = await api.get<Repository>(
-  //     `repos/italocedrosales/github-explorer`,
-  //   );
+  async function findRepoDefault() {
+    const response = await api.get<Repository>(
+      `repos/italocedrosales/github-explorer`,
+    );
 
-  //   const repository = response.data;
+    const repository = response.data;
 
-  //   setRepositories([...repositories, repository]);
-  // }
+    setRepositories([...repositories, repository]);
+  }
 
-  // useEffect(() => {
-  //   findRepoDefault();
-  // }, []);
+  useEffect(() => {
+    const storagedRepositories = localStorage.getItem(
+      '@GithubExplorer:repositories',
+    );
+
+    if (!storagedRepositories) {
+      findRepoDefault();
+    }
+  }, []);
 
   useEffect(() => {
     localStorage.setItem(
