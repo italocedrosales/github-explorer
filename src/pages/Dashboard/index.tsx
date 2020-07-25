@@ -32,24 +32,25 @@ const Dashboard: React.FC = () => {
     return [];
   });
 
-  async function addDefaultRepository() {
-    const response = await api.get<Repository>(
-      `repos/italocedrosales/github-explorer`,
-    );
-
-    const repository = response.data;
-
-    setRepositories([...repositories, repository]);
-  }
-
   useEffect(() => {
     const storagedRepositories = localStorage.getItem(
       '@GithubExplorer:repositories',
     );
 
+    async function addDefaultRepository() {
+      const response = await api.get<Repository>(
+        `repos/italocedrosales/github-explorer`,
+      );
+
+      const repository = response.data;
+
+      setRepositories([...repositories, repository]);
+    }
+
     if (!storagedRepositories) {
       addDefaultRepository();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
