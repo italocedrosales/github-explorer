@@ -15,7 +15,7 @@
 ## :rocket: Project
 
 > Github Explorer is amazing github repositories - made with Reactjs and Typescript.
-> [Test-WebApp](https://github-explorer-webapp.netlify.app/)
+> [Test-WebApp in Vercel](https://github-explorer.italocedro.vercel.app/)
 
 <h1 align="center">
     <img alt="Github Explorer" title="#home" src="assets/home.png" width="500px" />
